@@ -51,16 +51,18 @@
     height: 20%;
     background-color: var(--color_botones);
     border: 1px solid black;
+    transition: 0.2s;
 }
 .Bttsubmit:hover{
     border: none;
+    background-color: var(--color_botones_hover);
 }
 
 .showTasks{
     display: flex;
     flex-direction: column;
     width: 45vw;
-    min-height: 20vh;
+    height: 60vh;
     background-color: var(--color_gris_cards);
     justify-self: center;
     justify-content: center;
@@ -68,17 +70,40 @@
     border-radius: 5px;
     box-shadow: 0px 0px 5px var(--color_sombra_cards);
     margin-bottom: 40px;
-    gap: 10px ;
+    gap: 10px;
     padding: 10px;
+    overflow-y: auto;
 }
 
 .tasksShow{
     display: flex;
-    height: 13vh;
+    min-height: 13vh;
     width: 100%;
     background-color: var(--color_fondo_inputs);
     list-style: none;
     box-shadow: 0px 0px 4px var(--color_sombra_cards);
     align-items: center;
+    justify-content: space-between;
+}
+
+.mesage{
+    display: flex;
+    /* justify-content: center; */
+    width: 75%;
+    height: 80%;
+    margin-left: 2.5%;
+    /* background-color: peru; */
+}
+.trash{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    /* margin-right: 2.5%; */
+    background-color: rgba(255, 0, 0, 0.548);
+    transition: 0.2s;
+}
+.trash:hover{
+    background-color: red;
 }

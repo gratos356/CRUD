@@ -3,5 +3,6 @@
     --color_sombra_cards:rgb(40, 40, 40);
     --color_fondo_inputs:rgba(123, 123, 123, 0.47);
     --color_placesholder:rgb(138, 138, 138);
-    --color_botones:rgb(0, 3, 172);
+    --color_botones:rgba(0, 3, 172, 0.566);
+    --color_botones_hover:rgb(0, 3, 172);
 }
