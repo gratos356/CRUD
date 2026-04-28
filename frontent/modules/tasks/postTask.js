@@ -2,7 +2,8 @@ import {post} from "../helpers/post.js"
 
 export const createTask = (title) => {
     const newTask = {
-        title: title
+        title: title,
+        completed:false
     }
     post("tasks", newTask);
 

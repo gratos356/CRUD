@@ -12,7 +12,6 @@
 
 .createTask{
     display: flex;
-    
     width: 45vw;
     height: 30vh;
     background-color: var(--color_gris_cards);
@@ -21,6 +20,7 @@
     align-items: center;
     border-radius: 5px;
     box-shadow: 0px 0px 5px var(--color_sombra_cards);
+    margin-bottom: 40px;
 }
 
 
@@ -54,4 +54,31 @@
 }
 .Bttsubmit:hover{
     border: none;
+}
+
+.showTasks{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    min-height: 20vh;
+    background-color: var(--color_gris_cards);
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px var(--color_sombra_cards);
+    margin-bottom: 40px;
+    gap: 10px ;
+    padding: 10px;
+}
+
+.tasksShow{
+    display: flex;
+    height: 13vh;
+    width: 100%;
+    background-color: var(--color_fondo_inputs);
+    list-style: none;
+    box-shadow: 0px 0px 4px var(--color_sombra_cards);
+    align-items: center;
+    justify-content: center;
 }
