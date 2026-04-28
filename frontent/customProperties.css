@@ -1,0 +1,7 @@
+:root{
+    --color_gris_cards:rgb(231, 231, 231);
+    --color_sombra_cards:rgb(40, 40, 40);
+    --color_fondo_inputs:rgba(123, 123, 123, 0.47);
+    --color_placesholder:rgb(138, 138, 138);
+    --color_botones:rgb(0, 3, 172);
+}
