@@ -22,6 +22,17 @@
     <section class="showTasks" id="SectionShowTasks">
         
     </section>
+    <section class="updateTask" id="TaskUpdate">
+        <form id="updateTaskForm" class="taskFormUpdate">
+            <input type="text" class="inputUpdateTaskId inputs" id="taskInputUpdateId" placeholder="id a Actualizar">
+            <input type="text" class="inputUpdateTaskTitle inputs" id="taskInputUpdateTitle" placeholder="Titulo nuevo">
+            <select class="inputUpdateTaskState inputs" id="taskInputUpdateState" name="opciones">
+                <option value="1">Completado</option>
+                <option value="2">No Completado</option>
+            </select>
+            <button type="submit" class="BttnUpdate Bttsubmit" id="updateBttn">Update</button>
+        </form>
+    </section>
     <script src="script.js" type="module"></script>
 </body>
 </html>

@@ -1089,7 +1089,7 @@
       "id": "5vZaYLtn5Jw"
     },
     {
-      "title": "piñas",
+      "title": "javaScript",
       "completed": false,
       "id": "fEG2Qo1PvL4"
     },
@@ -1117,6 +1117,11 @@
       "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "completed": false,
       "id": "np9GGe83-TY"
+    },
+    {
+      "title": "python",
+      "completed": false,
+      "id": "fuuCCEeU6zw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
